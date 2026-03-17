@@ -173,12 +173,6 @@ PRODUCT_PACKAGES += \
     vendor.display.config@1.8 \
     vendor.display.config@1.8.vendor
 
-# Dolby
-$(call inherit-product, vendor/xiaomi/dolby/config.mk)
-
-PRODUCT_PACKAGES += \
-    DSPVolumeSynchronizer
-
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey

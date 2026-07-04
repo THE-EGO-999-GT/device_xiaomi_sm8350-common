@@ -161,10 +161,8 @@ PRODUCT_COPY_FILES += \
     hardware/qcom-caf/sm8350/display/config/snapdragon_color_libs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/snapdragon_color_libs_config.xml
 
 # Dolby
-$(call inherit-product, hardware/dolby/dolby.mk)
-
-PRODUCT_PACKAGES += \
-    LunarisDolby
+TARGET_INCLUDES_OEM_App := true
+TARGET_INCLUDES_DolbyVision := true
 
 # DRM
 PRODUCT_PACKAGES += \

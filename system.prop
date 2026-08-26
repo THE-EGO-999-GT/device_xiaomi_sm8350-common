@@ -46,3 +46,6 @@ persist.debug.wfd.enable=1
 
 # CameraX
 ro.camerax.extensions.enabled=true
+
+#Lunaris Flag
+ro.lunaris.maintainer=THEㅤEGOㅤ999

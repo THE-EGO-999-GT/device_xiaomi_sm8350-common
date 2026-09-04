@@ -44,5 +44,9 @@ persist.vendor.sensors.enable.mag_filter=true
 # WFD
 persist.debug.wfd.enable=1
 
+# OTA Updater
+lineage.updater.uri=https://the-ego-999-gt.github.io/OTA/Lunaris_Haydn.json
+infinity.updater.uri=https://the-ego-999-gt.github.io/OTA/Lunaris_Haydn.json
+
 #Lunaris Flag
 ro.lunaris.maintainer=THEㅤEGOㅤ999

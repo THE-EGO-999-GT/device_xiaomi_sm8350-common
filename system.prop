@@ -47,5 +47,9 @@ persist.debug.wfd.enable=1
 # CameraX
 ro.camerax.extensions.enabled=true
 
+# OTA Updater
+lineage.updater.uri=https://the-ego-999-gt.github.io/OTA/Lunaris_Haydn.json
+infinity.updater.uri=https://the-ego-999-gt.github.io/OTA/Lunaris_Haydn.json
+
 #Lunaris Flag
 ro.lunaris.maintainer=THEㅤEGOㅤ999

@@ -109,6 +109,10 @@ on boot
     mkdir /mnt/vendor/persist/vpp 0770 media media
     copy /vendor/etc/tunings.txt /mnt/vendor/persist/vpp/tunings.txt
 
+    # High touch polling rate
+    chown system system /sys/devices/virtual/touch/touch_dev/bump_sample_rate
+    chmod 0660 /sys/devices/virtual/touch/touch_dev/bump_sample_rate
+
     # Create hexlp directory
     mkdir /mnt/vendor/persist/hexlp 0770 media media
 

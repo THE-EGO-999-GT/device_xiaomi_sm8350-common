@@ -291,10 +291,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_ENABLE_UFFD_GC := true
 
 # Lineage Health
+ifeq ($(TARGET_INCLUDES_Lineage_Health),true)
+
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
 
 $(call soong_config_set_bool,lineage_health,charging_control_supports_bypass,false)
+
+endif
 
 # Media
 PRODUCT_COPY_FILES += \

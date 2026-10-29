@@ -44,4 +44,8 @@
         <item>268</item>
         <item>267</item>
     </integer-array>
+
+    <string name="build_maintainer_title">Unofficial</string>
+    <string name="build_maintainer_donate_url">https://t.me/ServerHive_bot?start=dev_PVYDRB</string>
+    <string name="build_maintainer_summary">ᎢʜᴇㅤᎬɢᴏㅤ999</string>
 </resources>

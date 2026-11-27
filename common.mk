@@ -182,7 +182,8 @@ PRODUCT_COPY_FILES += \
 # Dolby
 $(call inherit-product, hardware/dolby/dolby.mk)
 
-TARGET_INCLUDES_OEM_App := true
+PRODUCT_PACKAGES += \
+    LunarisDolby
 
 # DRM
 PRODUCT_PACKAGES += \

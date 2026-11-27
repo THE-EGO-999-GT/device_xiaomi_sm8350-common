@@ -78,11 +78,6 @@ $(foreach nfc_sku, $(call to-upper, $(TARGET_NFC_SUPPORTED_SKUS)), \
     $(eval ODM_MANIFEST_$(nfc_sku)_FILES += $(COMMON_PATH)/hidl/manifest_nfc.xml))
 endif
 
-ifeq ($(TARGET_HAS_UDFPS),true)
-DEVICE_MANIFEST_FILE += \
-    $(COMMON_PATH)/hidl/manifest_udfps.xml
-endif
-
 # Kernel
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_IMAGE_NAME := Image
